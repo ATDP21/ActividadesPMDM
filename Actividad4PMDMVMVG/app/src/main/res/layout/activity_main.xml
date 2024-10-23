@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <!-- Fila superior -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +28,6 @@
             android:background="#fc9003" /> <!-- Azul -->
     </LinearLayout>
 
-    <!-- Fila central -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,22 +38,21 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#51ed13" /> <!-- Amarillo -->
+            android:background="#51ed13" />
 
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#11a60f" /> <!-- Magenta -->
+            android:background="#11a60f" />
 
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#076606" /> <!-- Cian -->
+            android:background="#076606" />
     </LinearLayout>
 
-    <!-- Fila inferior -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,19 +63,19 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#0ba2e3" /> <!-- Naranja -->
+            android:background="#0ba2e3" />
 
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#0b70e3" /> <!-- Púrpura -->
+            android:background="#0b70e3" />
 
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:background="#0b41e3" /> <!-- Gris -->
+            android:background="#0b41e3" />
     </LinearLayout>
 
 </FrameLayout>
